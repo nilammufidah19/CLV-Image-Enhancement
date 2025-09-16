@@ -40,7 +40,7 @@ psf = np.ones((5, 5)) / 25
 ```
 PSF (Point Spread Function) ini adalah kernel berukuran 5×5 dengan semua elemen bernilai sama. PSF ini merepresentasikan blur rata-rata (uniform blur), seperti efek ketika gambar menjadi buram karena pergerakan kecil atau defocus. Dengan PSF ini, Wiener filter mencoba membalikkan efek blur tersebut agar citra lebih tajam kembali.
 
-![Perbandingan antara image original dan Wiener Deconvolution](output/sharped-all.png)
+![Perbandingan antara image original dan Wiener Deconvolution](output/winer-deconv.png)
 
 ---
 
